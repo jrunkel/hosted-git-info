@@ -18,7 +18,7 @@ var gitHosts = module.exports = {
     'treepath': 'src',
     'tarballtemplate': 'https://{domain}/{user}/{project}/get/{committish}.tar.gz'
   },
-  gitlab-codevise: {
+  gitlab_codevise: {
     'protocols': [ 'git+ssh', 'git+https', 'ssh', 'https' ],
     'domain': 'gitlab.codevise.de',
     'treepath': 'tree',
